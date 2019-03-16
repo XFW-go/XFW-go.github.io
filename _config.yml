@@ -1,1 +1,5 @@
 theme: jekyll-theme-leap-day
+title: XF's home
+description: This is the homepage of Minhao Fan.
+show_downloads: false
+google_analytics:
