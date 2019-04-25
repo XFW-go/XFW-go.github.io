@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 	
-  <title>Resume - Start Bootstrap Theme</title>
+  <title>Resume - Minhao Fan</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -98,13 +98,13 @@
 			  <div class="resume-content">
 				<h4 class="mb-0">Pelvis Parser</h3>
 				<!-- <div class="subheading mb-3">Intelitec Solutions</div> -->
-				<p>Designing and collecting data for pelvis radiograph. This is a project collaborating with a major public hospital. By first detecting landmarks on a radiograph, it may assist diagnosis of certain illnesses. Temporarily, the key issue lies in the preparation of a pelvis dataset. I have collected a few images from web and the hospital in cooperation, and manually annotated them. Also, I have discussed the landmarks with the doctors and designed the 23 critical points for a single pelvis radiograph. Actually, different from face landmark detection, a pelvis radiograph presents a larger perception area and it varies much with regard to intricate illness. For the time being, discussion is underway on the issue of dataset annotation with the hospital and may possibly resort to other organizations.</p>
+				<p>This is a project for designing and collecting data for pelvis radiograph. To assist the diagnosis of pelvis-related illness, we are collecting a pelvis landmark dataset collaborating with a major public hospital. I am the team leader of the dataset collection and have organized the landmark design and the annotation process. Temporarily, we have discussed the landmarks with the doctors and designed the 23 critical points for a single pelvis radiograph. I have also tried an implementation of a face landmark detection work, providing the baseline for our pelvis landmark detection.</p>
 			  </div>
 			</div>
 			<div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
 			  <div class="resume-content">
 				<h4 class="mb-0">Object detection</h3>
-				<p>My target is to robustly handle face detection under various degradation in real world case (focus, haze, illumination, lens, motion, rain, snow). I am now designing a GAN to enlarge the UFDD dataset (a relatively small dataset with specific degradation in real world case) by doing image degradation first. The idea is that an HR image can have multiple corresponding degraded images (in real world case) . Thus, by taking HR face images and LR images with specific degradation in UFDD set as unpaired input, I’ll train a GAN to generate more ‘real world case’ degraded images which enables state-of-art face-detectors to generally perform better when facing tough cases. Baselines include famous object detection methods based on mmdetection (a detection tool released by open-mmlab) and state-of-art face detectors such as DSFD, S3FD, HR-ER……</p>
+				<p>My target is to robustly handle face detection under various degradation in real world case (focus, haze, illumination, lens, motion, rain, snow). Temporarily, we are handling the illumination case, such as images without sufficient exposure. We combined features extracted from both low-light and enhanced domain to obtain context information for object detection.</p>
 			  </div>
 			</div>
           </div>
